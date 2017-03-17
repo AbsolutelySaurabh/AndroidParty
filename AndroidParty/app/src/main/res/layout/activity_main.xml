@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.absolutelysaurabh.androidparty.MainActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:text="You are invited to the Party Ben !"
+        android:textSize="26sp"
+        android:textColor="@drawable/image"
+        android:background="#E1BEE7"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/name"
+        android:src="@drawable/image"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="From ,Saurabh"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_margin="16dp"
+        android:textColor="@drawable/image"
+        android:background="#E1BEE7"/>
+
+
+</RelativeLayout>
